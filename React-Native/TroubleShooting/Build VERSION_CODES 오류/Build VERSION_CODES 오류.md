@@ -49,4 +49,4 @@ public boolean grantFileDownloaderPermissions() {
     - targetSdkVersion : 업데이트 할 버전
     - supportLibVersion : 사용하는 라이브러리들을 지원할 버전
 
-    ![_2020-06-11__5.49.59.png](_2020-06-11__5.49.59.png)
+    ![_2020-06-11__5.49.59(2).png](_2020-06-11__5.49.59(2).png)
