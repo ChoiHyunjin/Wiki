@@ -26,7 +26,7 @@ Context API는 Context 생성, Provider 설정, 전용 Hook들을 따로 만들�
 
 ## 6.2 리덕스의 주요 개념
 
-![Redux%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20/Untitled.png](Redux%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20/Untitled.png)
+![Redux%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5/Untitled.png](Redux%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5/Untitled.png)
 
 그림 6-1 리덕스에서 상탯값이 변경되는 과정
 
