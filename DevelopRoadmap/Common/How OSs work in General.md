@@ -11,13 +11,13 @@ OS란? 컴퓨터 하드웨어와 시스템을 관리하는 소프트웨어
 
 ## 구성요소
 
-![Untitled](How%20OSs%20work%20in%20General%20e84cf0fb4399448cad3c0263813ac5cd/Untitled.png)
+![Untitled](images/How%20OSs%20work%20in%20General/Untitled.png)
 
 ## System Call Interface
 
 사용자가 OS Kernel에 요청할 수 있는 통로.
 
-![Untitled](How%20OSs%20work%20in%20General%20e84cf0fb4399448cad3c0263813ac5cd/Untitled%201.png)
+![Untitled](images/How%20OSs%20work%20in%20General/Untitled%201.png)
 
 # OS Kernel
 
@@ -65,7 +65,7 @@ Window, Button 등의 UI 표현을 책임지는 요소. 한쪽에서는 OpenGL, 
 
 ## 단일 구조
 
-![Untitled](How%20OSs%20work%20in%20General%20e84cf0fb4399448cad3c0263813ac5cd/Untitled%202.png)
+![Untitled](images/How%20OSs%20work%20in%20General/Untitled%202.png)
 
 커널 내 모듈간 직접 통신이 가능하다.
 
@@ -73,7 +73,7 @@ Window, Button 등의 UI 표현을 책임지는 요소. 한쪽에서는 OpenGL, 
 
 ## 계층 구조
 
-![Untitled](How%20OSs%20work%20in%20General%20e84cf0fb4399448cad3c0263813ac5cd/Untitled%203.png)
+![Untitled](images/How%20OSs%20work%20in%20General/Untitled%203.png)
 
 사용자 영역(계층 5)와 커널 영역(계층 0~4)로 구성됨.
 
@@ -81,7 +81,7 @@ Window, Button 등의 UI 표현을 책임지는 요소. 한쪽에서는 OpenGL, 
 
 ## 마이크로 커널 구조
 
-![Untitled](How%20OSs%20work%20in%20General%20e84cf0fb4399448cad3c0263813ac5cd/Untitled%204.png)
+![Untitled](images/How%20OSs%20work%20in%20General/Untitled%204.png)
 
 커널 크기의 최소화를 위한 구조.
 
