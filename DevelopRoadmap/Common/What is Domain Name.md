@@ -8,7 +8,7 @@
 
 일반적으로 Domain Name 은 오른쪽에서부터 해석이 가능하다.
 
-![Untitled](images/What%20is%20Domain%20Name%3F/Untitled.png)
+![Untitled](images/What%20is%20Domain%20Name/Untitled.png)
 
 ## TLD (Top-Level Domain)
 
