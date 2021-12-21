@@ -63,9 +63,27 @@
 
 ### 자르기 - skip, limit
 
+``
+  Stream<T> skip(long n)
+``: n개 건너뛰기  
+``
+  Stream<T> limit(long maxSize)
+``: maxSize이후는 버리기  
 ```java
-  Stream<T> skip(long n)          // n개 건너뛰기
-  Stream<T> limit(long maxSize)   // maxSize이후는 버리기
-  Stream<String> Files.lines(Path path, Charset cs)
-  Stream<String> lines()    // BufferedReader 클래스의 메서드
+  IntStream intStream = IntStream.rangeClosed(1, 10);  // 1,2,3...,10
+  intStream.skip(3).limit(5).forEach(Stytem.out::print)  // 4,5,6,7,8
+```
+
+### 거르기 - filter, distinct
+
+``Stream<T> filter(Predicate<? super T> predicate)``: 조건에 맞지 않는 요소 제거  
+``Stream<T> distinct()``: 중복 제거
+
+### 정렬 - sorted
+
+``Stream<T> sorted()``: 기본정렬  
+``Stream<T> sorted(Comparator<? super T> comparator)``: 지정된 comparator로 정렬  
+```java
+Stream<String> strStream = Stream.of("dd", "aaa", "CC", "cc", "b");
+strStream.sorted() // 기본정렬
 ```
