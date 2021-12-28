@@ -6,7 +6,7 @@ class IOEx3 {
 		byte[] inSrc = {0,1,2,3,4,5,6,7,8,9};
 		byte[] outSrc = null;
 
-		byte[] temp = new byte[4];	// ÀÌÀü ¿¹Á¦¿Í ¹è¿­ÀÇ Å©±â°¡ ´Ù¸£´Ù.
+		byte[] temp = new byte[4];	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ï¿½ï¿½ Å©ï¿½â°¡ ï¿½Ù¸ï¿½ï¿½ï¿½.
 
 		ByteArrayInputStream input = null;
 		ByteArrayOutputStream output = null;
@@ -18,15 +18,18 @@ class IOEx3 {
 
 		try {
 			while(input.available() > 0) {
-				input.read(temp);
-				output.write(temp); 
+				input.read(temp);					// 0,1,2,3,4,5,6,7,8,9
+				output.write(temp); 			// 0,1,2,3,4,5,6,7,8,9,6,7
 //				System.out.println("temp :" + Arrays.toString(temp));
+
+//				int len = input.read(temp);		//0,1,2,3,4,5,6,7,8,9
+//				output.write(temp, 0, len);		//0,1,2,3,4,5,6,7,8,9
 
 				outSrc = output.toByteArray();
 				printArrays(temp, outSrc);
 			}
 		} catch(IOException e) {}
-	} // mainÀÇ ³¡
+	} // mainï¿½ï¿½ ï¿½ï¿½
 
 	static void printArrays(byte[] temp, byte[] outSrc) {
 		System.out.println("temp          :" +Arrays.toString(temp));
